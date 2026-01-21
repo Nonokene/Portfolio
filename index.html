@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Porfolio</title>
+</head>
+<body>
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio — Développeur Web</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <a class="brand" href="#" style="color: white;">Hamady Diallo</a>
+                <nav class="nav">
+                    <a href="#about">À propos</a>
+                    <a href="#skills">Compétences</a>
+                    <a href="#projects">Projets</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <button id="nav-toggle" aria-label="menu">☰</button>
+            </div>
+        </header>
+
+        <main>
+            <section id="hero" class="hero">
+                <div class="container hero-grid">
+                    <div class="hero-text">
+                        <h1 id="hero-name">Développeur Web</h1>
+                        <p id="hero-blurb">Je conçois et développe uniquement des applications web modernes performantes.</p>
+                        <div class="hero-actions">
+                            <a class="btn primary" href="#projects">Voir mes projets</a>
+                            <a class="btn" id="download-resume" href="#">Télécharger CV</a>
+                        </div>
+                    </div>
+                    <div class="hero-visual" aria-hidden="true">
+                        <!-- Illustration SVG simple, facile à remplacer -->
+                        <svg width="320" height="220" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="320" height="220" rx="16" fill="#0f172a" />
+                            <g fill="#fff" opacity="0.9">
+                                <circle cx="60" cy="60" r="28" />
+                                <rect x="110" y="40" width="160" height="120" rx="12" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section container">
+                <h2>À propos</h2>
+                <p id="about-text">Chargement...</p>
+            </section>
+
+            <section id="skills" class="section container">
+                <h2>Compétences</h2>
+                <div id="skills-list" class="skills-grid">Chargement...</div>
+            </section>
+
+            <section id="projects" class="section container">
+                <h2>Projets</h2>
+                <div id="projects-list" class="projects-grid">Chargement...</div>
+            </section>
+
+            <section id="contact" class="section container contact-section">
+                <h2>Contact</h2>
+                <div class="contact-grid">
+                    <div>
+                        <p id="contact-text">Envoyez-moi un message via le formulaire ou par email.</p>
+                        <ul class="contact-list">
+                            <li id="contact-email">Email: <a href="mailto:hamadijallo99@gmail.com">hamadijallo99@gmail.com</a></li>
+                            <li id="contact-phone">Tel: +223 77 65 75 71/50 85 57 45</li>
+                        </ul>
+                    </div>
+                    <form id="contact-form" class="contact-form" method="POST" data-formspree-endpoint="https://formspree.io/f/yourFormId">
+                        <label>Nom<input name="name" required></label>
+                        <label>Email<input name="email" type="email" required></label>
+                        <label>Sujet<input name="subject" type="text"></label>
+                        <label>Message<textarea name="message" rows="4" required></textarea></label>
+                        <div class="form-actions"><button class="btn primary" type="submit">Envoyer</button></div>
+                        <div id="contact-status" aria-live="polite" style="margin-top:12px;color:var(--muted)"></div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">© <span id="footer-year"></span> Hamady Diallo — Développeur Web</div>
+        </footer>
+
+        <script src="js/main.js" defer></script>
+    </body>
+</html>
+
+
+
+
+</body>
+</html>

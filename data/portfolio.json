@@ -1,0 +1,14 @@
+{
+  "name": "Hamady Diallo",
+  "title": "Développeur Web",
+  "blurb": "Je conçois et développe uniquement des applications web modernes performantes.",
+  "about": "Ingénieur en informatique spécialisé dans le développement web, je dispose d'un permis de conduire. J'aime concevoir des interfaces réactives, optimiser les performances et créer des expériences utilisateurs fluides.",
+  "skills": ["Creation de site web", "creation de contenue publicitaire", "Affiche publicitaire", "Maintenance", "Vente en ligne", "Word", "Excel", "Powerpoint"],
+  "projects": [
+    {"name":"Creation d'affiche","description":"Affiche publicitaire moderne repondant a toutes les criteurs.","stack":["Canvas","Adobe Photoshop"],"link":"#"},
+    {"name":"Campagne publicitaire digitale","description":"Creation de contenue publicitaire pour reseaux sociaux.","stack":["Adobe Illustrator","Canva"],"link":"#"}
+  ],
+
+  "contact": {"email":"hamadijallo99@gmail.com","phone":"+223 77 65 75 71/50 85 57 45","description":"Disponible pour missions freelance et CDI. Contactez-moi pour discuter de vos besoins."},
+  "resume": ""
+}
